@@ -12,7 +12,7 @@ a {
 }
 
 .container {
-	background-color: #89CDC2;
+	background-color: #AFDED4;
 	text-align: center;
 	margin: 0px auto;
 	padding-top: 40px;
@@ -25,8 +25,8 @@ a {
 	height: 50px;
 	position: fixed;
 	top: 0px;
-	background-color: #F1F4F2;
-	opacity: 0.9;
+	background-color: #89CDC2;
+	opacity: 0.8;
 	box-shadow: 0px 4px 4px #aaa;
 }
 
@@ -41,10 +41,18 @@ a {
 }
 
 #search {
-	width: 330px;
+	width: 360px;
 	position: absolute;
 	right: 20px;
 	top: 15px;
+}
+
+#search-word {
+	width: 30px;
+	display: inline;
+	color: #F1F4F2;
+	position: absolute;
+	right: 365px;
 }
 
 #search-icon {
@@ -73,7 +81,7 @@ a {
 #to-top {
 	position: fixed;
 	right: 100px;
-	bottom: 50px;
+	bottom: 60px;
 	background-color: #F1F4F2;
 	border-radius: 5px;
 	box-shadow: 0px 4px 4px #aaa;
@@ -165,13 +173,13 @@ a {
 
 #bottom-bar {
 	width: 100%;
-	height: 40px;
-	background-color: #F1F4F2;
+	height: 50px;
+	background-color: #89CDC2;
 }
 
 #directory {
 	position: relative;
-	bottom: -5px;
+	bottom: -10px;
 }
 
 #directory-item {
