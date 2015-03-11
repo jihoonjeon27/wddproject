@@ -3,18 +3,26 @@
 <head>
 	<title>Craigslist Item</title>
 	<link rel="stylesheet" type="text/css" href="assets/css/style_item.css" />
-	<link href="http://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet" type="text/css">
+	<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,600,300' rel='stylesheet' type='text/css'>
 </head>
 
 <body>
 	<div class="container">
+		<div id="search">
+			<div id="search-word">Search</div>
+			<input type="text" id="search-bar"></input>
+			<a href=""><div id="search-icon"><img src="assets/img/search.png"/></div></a>
+		</div>
 		<div id="navbar">
-			<a href=""><div id="logo">Craigslist</div></a>
-			<div id="search">
-				<div id="search-word">Search</div>
-				<input type="text" id="search-bar"></input>
-				<a href=""><div id="search-icon"><img src="assets/img/search.png"/></div></a>
-			</div>
+			<div id="directory">
+				<a href=""><div id="directory-item">Main</div></a>
+				<div id="directory-arrow"><img src="assets/img/arrow.png"/></div>
+				<a href=""><div id="directory-item">Housing</div></a>
+				<div id="directory-arrow"><img src="assets/img/arrow.png"/></div>
+				<a href=""><div id="directory-item">East Bay</div></a>
+				<div id="directory-arrow"><img src="assets/img/arrow.png"/></div>
+				<a href=""><div id="directory-item">Berkeley</div></a>
+			</div>	
 		</div>
 		<div id="to-top">
 			<a href=""><div id="button">Back to top</div></a>
@@ -55,14 +63,18 @@
 			<a href=""><div id="feature">Email: apartments@gmail.com</div></a>
 		</div>
 		<div id="bottom-bar">
-			<div id="directory">
-				<a href=""><div id="directory-item">Main</div></a>
-				<div id="directory-arrow"><img src="assets/img/arrow.png"/></div>
-				<a href=""><div id="directory-item">Housing</div></a>
-				<div id="directory-arrow"><img src="assets/img/arrow.png"/></div>
-				<a href=""><div id="directory-item">East Bay</div></a>
-				<div id="directory-arrow"><img src="assets/img/arrow.png"/></div>
-				<a href=""><div id="directory-item">Berkeley</div></a>
+			<div id="bottombar-item">
+				<ul>
+					<li>&copy2015 Craigslist</li>
+					<li>Help</li>
+					<li>Safety</li>
+					<li>Privacy</li>
+					<li>Feedback</li>
+					<li>CL Jobs</li>
+					<li>Terms</li>
+					<li>About</li>
+					<li>Mobile</li>
+				</ul>
 			</div>
 		</div>
 	</div>

@@ -28,45 +28,50 @@ a {
 	background-color: #89CDC2;
 	opacity: 0.8;
 	box-shadow: 0px 4px 4px #aaa;
+	z-index: 1;
 }
 
-#logo {
-	position: absolute;
-	left: 20px;
-	top: 10px;
-	color: black;
+#directory-item {
+	display: inline;
 	background-color: white;
-	border-radius: 5px;
+	color: black;
 	padding: 5px;
+	border-radius: 5px;
+}
+
+#directory-arrow {
+	display: inline;
+}
+
+#directory-arrow img {
+	width: 20px;
+	position: relative;
+	bottom: -5px;
 }
 
 #search {
 	width: 360px;
-	position: absolute;
+	position: fixed;
 	right: 20px;
 	top: 15px;
+	z-index: 2;
 }
 
 #search-word {
 	width: 30px;
 	display: inline;
-	color: #F1F4F2;
+	color: white;
 	position: absolute;
 	right: 365px;
 }
 
 #search-icon {
-	width: 15px;
 	position: absolute;
 	right: 5px;
 }
 
 #search-icon img {
 	width: 15px;
-}
-
-#search-icon img:hover {
-	opacity: 0.5;
 }
 
 #search-bar {
@@ -93,14 +98,15 @@ a {
 
 #button {
 	padding: 10px;
-	color: #000000;
+	color: black;
 }
 
 #title {
 	font-size: 2em;
+	font-weight: 400;
 	margin: 20px auto;
-	color: #F1F4F2;
-	text-shadow: 0px 4px 4px #777;
+	color: white;
+	text-shadow: 2px 2px #504a4b;
 }
 
 #piczone {
@@ -139,7 +145,7 @@ a {
 	background-color: #F1F4F2;
 	width: 720px;
 	border-radius: 10px;
-	box-shadow: 0px 4px 4px #777;
+	box-shadow: 0px 4px 0px #aaa;
 	padding-bottom: 20px
 }
 
@@ -173,29 +179,32 @@ a {
 
 #bottom-bar {
 	width: 100%;
-	height: 50px;
+	height: 35px;
+	padding-top: 10px;
 	background-color: #89CDC2;
 }
 
 #directory {
-	position: relative;
-	bottom: -10px;
+	position: absolute;
+	bottom: 15px;
+	left: 20px;
 }
 
-#directory-item {
+#bottombar-item ul{
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	color: white;
+}
+
+#bottombar-item li {
 	display: inline;
-	background-color: white;
-	color: black;
-	padding: 5px;
-	border-radius: 5px;
+	font-weight: 300;
+	font-size: 15px;
+	padding-left: 15px;
+	padding-right: 15px;
 }
 
-#directory-arrow {
-	display: inline;
-}
-
-#directory-arrow img {
-	width: 20px;
-	position: relative;
-	bottom: -5px;
+#bottombar-item li:hover {
+	opacity: 0.6;
 }
