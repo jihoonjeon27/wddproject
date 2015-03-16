@@ -177,17 +177,17 @@ a {
 	display: inline-block;
 }
 
+#directory {
+	position: absolute;
+	bottom: 15px;
+	left: 20px;
+}
+
 #bottom-bar {
 	width: 100%;
 	height: 35px;
 	padding-top: 10px;
 	background-color: #89CDC2;
-}
-
-#directory {
-	position: absolute;
-	bottom: 15px;
-	left: 20px;
 }
 
 #bottombar-item ul{
