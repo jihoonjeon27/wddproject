@@ -4,7 +4,7 @@ body {
 	background-color: #B1DED4;
 }
 
-div {
+div, img {
 	transition: linear 0.2s;
 }
 
@@ -17,6 +17,25 @@ a {
 	margin-left: 200px;
 	padding-left: 20px;
 	height: 1200px;
+}
+
+#back {
+	position: absolute;
+	top: 20px;
+	left: 230px;
+	width: 70px;
+	padding: 5px;
+	margin: 0px;
+	background-color: #F1F4F2;
+	border-radius: 5px;
+	color: black;
+	text-align: center;
+	box-shadow: 0px 2px 0px #aaa;
+}
+
+#back:active {
+	box-shadow: 0px 1px 0px #aaa;
+	transform: translate(0px, 1px);
 }
 
 .title {
@@ -41,8 +60,14 @@ a {
 	width: 200px;
 	height: 200px;
 	border-radius: 10px;
-	margin: 10px auto;
+	margin: 15px auto;
 	object-fit: cover;
+	box-shadow: 0px 3px 0px #777;
+}
+
+.image img:active {
+	box-shadow: 0px 1px 0px #777;
+	transform: translate(0px, 2px);
 }
 
 .description{
@@ -52,6 +77,11 @@ a {
 	background-color: #F1F4F2;
 	text-align: center;
 	box-shadow: 0px 3px 0px #aaa;
+}
+
+.description:active {
+	box-shadow: 0px 1px 0px #aaa;
+	transform: translate(0px, 2px);
 }
 
 .side-bar{
