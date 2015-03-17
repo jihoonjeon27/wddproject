@@ -1,0 +1,204 @@
+.category {
+	position: relative;
+	margin: 10px auto;
+	width: 250px;
+	height: 250px;
+	display: inline-block;
+	background-color: #c8f1e8;
+	transition: .5s;
+	margin-left: 10px;
+}
+
+.category:hover {
+	background-color: white;
+	transition: .5s;
+}
+
+.category-title {
+	position: relative;
+	text-align: center;
+	margin-top: 20px;
+	font-size: 20px;
+	color: #343434;
+}
+
+.category-img {
+	width: 200px;
+	height: 200px;
+	margin: 0 auto;
+}
+
+#container {
+	padding-left: 200px;
+	margin-bottom: 10px;
+	background-color: #afded4;
+}
+
+#navbar {
+	width: 100%;
+	height: 50px;
+	position: fixed;
+	top: 0px;
+	background-color: #89CDC2;
+	box-shadow: 0px 4px 4px #aaa;
+	z-index: 1;
+}
+
+#navbar-search {
+	opacity: 0.8;
+}
+
+p {
+	font-size: 30px;
+	text-align: center;
+	margin: 20px auto;
+	color: white;
+	text-shadow: 2px 2px #7c7c7c;
+}
+
+#header {
+	text-align: center;
+	font-weight: 600;
+	font-size: 100px;
+}
+
+#subheader {
+	text-align: center;
+	font-weight: 400;
+	font-size: 30px;
+}
+
+#search {
+	width: 360px;
+	position: fixed;
+	right: 20px;
+	top: 15px;
+	z-index: 2;
+}
+
+#search-word {
+	width: 30px;
+	display: inline;
+	color: white;
+	position: absolute;
+	right: 365px;
+}
+
+#search-icon {
+	position: absolute;
+	right: 5px;
+}
+
+#search-icon img {
+	width: 15px;
+}
+
+#search-bar {
+	width: 300px;
+	height: 15px;
+	position: absolute;
+	right: 30px;
+	background-color: white;
+	text-align: left;
+}
+
+#site-title {
+	margin-left: 15px;
+	margin-top: 7px;
+	font-size: 25px;
+	color: white;
+	z-index: 500;
+	opacity: 1;
+}
+
+#header-section {
+	background: url("http://phandroid.s3.amazonaws.com/wp-content/uploads/2014/06/kite.jpg");
+	background-size: cover;
+	width: 100%;
+	height: 100%;
+	position: relative;
+	float: left;
+	padding-top: 275px;
+	padding-bottom: 275px;
+	color: white;
+	text-shadow: 2px 2px #504a4b;
+	margin-bottom: 20px;
+}
+
+img {
+	width: 100%;
+	height: auto;
+}
+
+body {
+	font-family: 'Open Sans';
+	margin: 0;
+	background-color: #afded4;
+}
+
+/*.list-block {
+	width: 90%;
+	margin: 10px auto;
+	padding: 25px;
+	background-color: #f1f4f2;
+}*/
+
+/*.list-title {
+	text-align: center;
+	font-size: 25px;
+	font-weight: 400;
+	padding-bottom: 10px;
+}
+
+.list-content {
+	font-weight: 400;
+
+	-webkit-column-count: 5;
+	-moz-column-count: 5;
+	column-count: 5;
+	
+	-webkit-column-width: 100px;
+	-moz-column-width: 100px;
+	column-width: 100px;
+}
+
+.list-item:hover {
+	opacity: 0.5;
+}*/
+
+#bottombar {
+	width: 100%;
+	height: 35px;
+	background-color: #89cdc2;
+	padding-top: 10px;
+	border-radius: 3px;
+	text-align: center;
+}
+
+#bottombar-item ul{
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	color: white;
+}
+
+#bottombar-item li {
+	display: inline;
+	font-weight: 300;
+	font-size: 15px;
+	padding-left: 15px;
+	padding-right: 15px;
+}
+
+#bottombar-item li:hover {
+	opacity: 0.6;
+}
+
+teal hex
+#89cdc2
+red-orange hex
+#e75A44
+light grey
+#f1f4f2
+
+
